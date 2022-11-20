@@ -1,0 +1,110 @@
+## Assignment Part-1
+Q1. Why do we call Python as a general purpose and high-level programming language?
+A) Python is a general purpose language because it can be used in a wide variety of development taks and it is high level because it is easy for humans to understand.
+Q2. Why is Python called a dynamically typed language?
+A) Python is dynamically typed language because we don't have to specify the datatype for declaraing any variable
+Q3. List some pros and cons of Python programming language?
+A) Pros: Easy to Learn & Use, Scalable, Large Community, Embeddable
+Cons: Slow, Security, Memory Consumption is High
+Q4. In what all domains can we use Python?
+A) AI, Data Science, Gaming, Web Development, Machine Learning, IoT
+Q5. What are variable and how can we declare them?
+A) Variables are names given to a memeory location in python we can declare a variable by having lvalue name and assign it some value of rvalue
+Q6. How can we take an input from the user in Python?
+A) By using input()
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+A) String
+Q8. What is type casting?
+A) Type casting is explicit type conversion from one data type to another
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+A) We can take Multiple inputs using single input() function witht he help of split() method or list comprehension
+Q10. What are keywords?
+A) Keywords are special words which have a predefined meaning in the language
+Q11. Can we use keywords as a variable? Support your answer with reason.
+A) No, becuase they already hold a meaning and doing so would make no sense
+Q12. What is indentation? What's the use of indentaion in Python?
+A) Instead of defining blocks with braces python uses indentation(tab spaces) to define blocks elements
+Q13. How can we throw some output in Python?
+A) using print() function
+Q14. What are operators in Python?
+A) Arithmetic, Logical, Bitwise, Assignment, Comparision, Membership, Identity
+Q15. What is difference between / and // operators?
+A) "/" give a float value while "//" casts it to a integer value
+Q16. Write a code that gives following as an output.
+```
+iNeuroniNeuroniNeuroniNeuron
+```
+A) print("iNeuroniNeuroniNeuroniNeuron")
+
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+A) 
+number=int(input())
+if number%2==0:
+    print("Even")
+else:
+    print("Odd)
+Q18. What are boolean operator?
+A) They are nominal True or False 
+Q19. What will the output of the following?
+```
+1 or 0
+
+0 and 0
+
+True and False and True
+
+1 or 0 or 0
+```
+A) 
+1
+0
+False
+1
+
+Q20. What are conditional statements in Python?
+A) if, elif, else
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+A) "if" executes if if condition is True else dosen't execute
+"elif" if if fails then the next condition elif(can be many) elif condition is True that elif will execute
+"else" if all if or elif conditions fail then else will be executed
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+A) 
+age = int(input())
+if age>=18:
+    print("I can vote")
+else:
+    print("I can't vote")
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
+A) 
+ans = 0
+for i in numbers:
+    if i%2==0:
+        ans += i
+print(ans)
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+A) 
+a,b,c=input().split()
+print(max([a,b,c]))
+
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+- The number must be divisible by five
+
+- If the number is greater than 150, then skip it and move to the next number
+
+- If the number is greater than 500, then stop the loop
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
+A)
+for i in range(len(numbers)):
+    if numbers[i]>500:
+        break
+    elif numbers[i]>150:
+        continue
+    elif numbers[i]%5==0:
+        print(numbers[i])
