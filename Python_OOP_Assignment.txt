@@ -87,16 +87,31 @@ Q28. What are *args, **kwargs?
 A)  *args for a variable number of arguments and **kwargs for *kwargs for a variable number of keyword arguments
 
 Q29. How can I pass optional or keyword parameters from one function to another?
-A) 
+A) Using *args and **kwargs
 
 Q30. What are Lambda Functions?
+A) lambda function is a nameless function
 
 Q31. Explain Inheritance in Python with an example?
+A) Inheritance is inherting  the properties and methods from parent to child(s).
+Eg:
+class A():
+    def __init__(self):
+        self.type="Some"
+    def age(self):
+        ....
+class B(A):
+    def __init__(self):
+        self.name="S"
 
 Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of class C, which version gets invoked?
+A) Class C's func method itself
 
 Q33. Which methods/functions do we use to determine the type of instance and inheritance?
+A) isinstance() is used
 
 Q34.Explain the use of the 'nonlocal' keyword in Python.
+A) The nonlocal keyword is used in nested functions to reference a variable in the parent function. 
 
 Q35. What is the global keyword?
+A) Used for creating variable with gloabl scope
