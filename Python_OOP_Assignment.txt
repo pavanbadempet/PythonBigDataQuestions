@@ -1,0 +1,102 @@
+## Python OOP Assignment
+Q1. What is the purpose of Python&#39;s OOP?
+A) Python's OOP enables the programs to be modularized into classes and objects with the concepts of Inheritance, Polymorphism, Encapsulation & Abstraction.
+
+Q2. Where does an inheritance search look for an attribute?
+A) Inheritance first looks in it's class later in it's superclasses level by level.
+
+Q3. How do you distinguish between a class object and an instance object?
+A) Class is blueprint of object and instance is a virtual copy of the object
+
+Q4. What makes the first argument in a class’s method function special?
+A) It refers to the object itself.
+
+Q5. What is the purpose of the __init__ method?
+A) It is used to initialize the class
+
+Q6. What is the process for creating a class instance?
+A) To create instance of a class you call the class using class name and pass whatever the arguments it's __init__ method accepts.
+
+Q7. What is the process for creating a class?
+A) To create a class "class" keyword is used followed by the class name.
+
+Q8. How would you define the superclasses of a class?
+A) By mentonined the superclasses names next to child class name.
+
+Q9. What is the relationship between classes and modules?
+A) Module is a way to break down python code into managable parts it a module may contain several classes and function but a Class is a blueprint of a realword entity which encapsulates data and functions.
+
+Q10. How do you make instances and classes?
+A) o create instance of a class you call the class using class name and pass whatever the arguments it's __init__ method accepts whereas, To create a class "class" keyword is used followed by the class name.
+
+Q11. Where and how should be class attributes created?
+A) Class attributes are declared directly in the class these are shared across all objects
+
+Q12. Where and how are instance attributes created?
+A) Instance attributes are created in the __init__ method these are specific to object
+
+Q13. What does the term &quot;self&quot; in a Python class mean?
+A) Self refers to the current object
+
+Q14. How does a Python class handle operator overloading?
+A) Special function are invoked based on the objects on which the operation is performed
+
+Q15. When do you consider allowing operator overloading of your classes?
+A) When the objects on which the operation to be performed are different.
+
+Q16. What is the most popular form of operator overloading?
+A) + is the most popular form of operator overloading
+
+Q17. What are the two most important concepts to grasp in order to comprehend Python OOP code?
+A) Classes and Objects
+
+Q18. Describe three applications for exception processing.
+A) a. Exceptions cannot be ignored, they must be caught otherwise the program will terminate
+b. It provides a means to sperate error handling code from program code
+c. Continue processing as if no error has occured.
+
+Q19. What happens if you don&#39;t do something extra to treat an exception?
+A) Exceptions cannot be ignored, they must be caught otherwise the program will terminate
+
+Q20. What are your options for recovering from an exception in your script?
+A) Using except clause and else clauses
+
+Q21. Describe two methods for triggering exceptions in your script.
+A) try-except are used.
+
+Q22. Identify two methods for specifying actions to be executed at termination time, regardless of
+whether or not an exception exists.
+A) Else and Finally
+
+Q23. What is the purpose of the try statement?
+A) Try is where the exception possible statements are placed
+
+Q24. What are the two most popular try statement variations?
+A) try and except or try,except and else
+
+Q25. What is the purpose of the raise statement?
+A) Is used to raise exceptions or errors
+
+Q26. What does the assert statement do, and what other statement is it like?
+A) Assert keyword is used during debugging it raises an error if code condition returns False
+
+Q27. What is the purpose of the with/as argument, and what other statement is it like?
+A) with is used to open file and close handling file.close automatically. Other statement like file.close can be used other wise as is for alias name
+
+Q28. What are *args, **kwargs?
+A)  *args for a variable number of arguments and **kwargs for *kwargs for a variable number of keyword arguments
+
+Q29. How can I pass optional or keyword parameters from one function to another?
+A) 
+
+Q30. What are Lambda Functions?
+
+Q31. Explain Inheritance in Python with an example?
+
+Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of class C, which version gets invoked?
+
+Q33. Which methods/functions do we use to determine the type of instance and inheritance?
+
+Q34.Explain the use of the 'nonlocal' keyword in Python.
+
+Q35. What is the global keyword?
